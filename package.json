@@ -1,0 +1,30 @@
+{
+    "name": "friend-tech-alert-bot",
+    "version": "1.0.0",
+    "description": "A bot to ping new joins on friend.tech in Telegram that have follower counts more than a specified threshold.",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "axios": "^0.21.1",
+      "ethers": "^5.0.0",
+      "dotenv": "^10.0.0",
+      "twit": "^2.2.11",
+      "node-telegram-bot-api": "^0.50.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/yourusername/friend-tech-alert-bot.git"
+    },
+    "keywords": [
+      "Ethereum",
+      "Telegram",
+      "Twitter",
+      "Bot",
+      "FriendTech"
+    ],
+    "author": "Grayson Lim",
+    "license": "MIT"
+  }
+  
